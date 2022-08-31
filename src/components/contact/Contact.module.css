@@ -1,0 +1,89 @@
+.contact_container {
+  display: grid;
+  padding: 1rem;
+  border-radius: 2rem;
+  grid-template-columns: 1fr 2fr;
+  height: auto;
+}
+
+.contact_options {
+  /* background: yellow; */
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: var(--shadow);
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact_option {
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border-radius: 2rem;
+  cursor: grab;
+  padding: 1rem;
+  background: var(--color-bg-variant);
+  color: var(--color-white);
+  flex-direction: column;
+  row-gap: 1.5rem;
+  font-size: 1.8rem;
+  width: 27rem;
+  height: 20rem;
+}
+.contact_option:hover {
+  color: var(--color-dark);
+  background: var(--color-white);
+  border: 2px solid transparent;
+}
+
+.icon {
+  font-size: 3rem;
+}
+.mail_icon {
+}
+.messenger_icon {
+  color: #0d9ef2;
+}
+
+.whatsUp_icon {
+  color: #38bf4b;
+}
+article a {
+  font-size: 2.8rem;
+}
+article a:hover {
+  border-bottom: 3px solid var(--color-primary);
+  color: var(--color-dark);
+}
+/* ========Form styling========= */
+form {
+  /* background: #0d9ef2; */
+  flex-direction: column;
+  gap: 3rem;
+  border-radius: 2rem;
+}
+form input,
+form textarea {
+  width: 80%;
+  border-radius: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  box-shadow: var(--shadow);
+}
+form input {
+  height: 3rem;
+  /* background: #38bf4b; */
+}
+
+.form_btn {
+  width: 80%;
+  color: var(--color-white);
+  font-size: 2rem !important;
+  border-radius: 2rem;
+  padding: 1rem 2.4rem 1rem 2.4rem !important;
+  box-shadow: var(--shadow);
+  color: var(--color-white) !important;
+}
+.btn_wrapper {
+  /* background: red; */
+  width: 80%;
+}
